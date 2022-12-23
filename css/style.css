@@ -1,0 +1,139 @@
+.bg-img{
+    z-index: -1;
+    position: fixed;
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.middle{
+    padding-top: 12%;
+    padding-left: 30%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+  
+}
+
+ #home-div {
+    font-family: monospace;
+    color: aliceblue;
+    height: 65vh;
+    overflow-y: scroll;
+    border-radius: 5px;
+ 
+
+}
+
+#header_terminal{
+    height: 3vh;
+    position: absolute;
+    background-color: #3f3f3f;
+    margin-left: -12px;
+    padding-left: 30%;
+    padding-right: 26.65%;
+    font-size: 20px;
+    font-family: monospace;
+    opacity: 75%;
+    border-radius: 5px;
+}
+
+#terminal_words{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#resume-div{
+    height: 100vh;
+    border-radius: 25px;
+
+}
+.header-content-resume{
+    border-radius: 25px;
+}
+
+
+.divider::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 8px;
+    width: 9px;
+    height: 9px;
+    margin-left: -4px;
+    background-color: #222;
+    border-radius: 5px;
+    border: 2px solid #03c01d;
+    z-index: 1;
+  }
+
+  .divider::before {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    margin-left: -8px;
+    border-radius: 10px;
+    background-color: #d8f000;
+    opacity: .25;
+    z-index: 0;
+  }
+
+  .divider {
+    position: relative;
+    padding-top: 0.2rem;
+    padding-bottom: 8rem;
+    top: 0;
+    left: 20%;
+    bottom: 0;
+    width: 1px;
+    background-color: #03c01d;
+  }
+
+  *, ::after, ::before {
+    box-sizing: inherit;
+  }
+
+
+  .block-title::after {
+    position: absolute;
+    opacity: 0.45;
+    top: 10px;
+    right: 0;
+    content: '';
+    height: 20px;
+    width: 30px;
+    background-image: -webkit-repeating-radial-gradient(center center, #0ba35c, #0ba35c 1px, transparent 0px, transparent 100%);
+    background-image: -moz-repeating-radial-gradient(center center, #0ba35c, #0ba35c 1px, transparent 0px, transparent 100%);
+    background-image: -ms-repeating-radial-gradient(center center, #0ba35c, #0ba35c 1px, transparent 0px, transparent 100%);
+    -webkit-background-size: 6px 6px;
+    -moz-background-size: 6px 6px;
+    background-size: 6px 6px;
+    z-index: 0;
+  }
+
+  .block-title {
+    display: inline-block;
+    position: relative;
+    padding-right: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+
+  .certificate-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    border: 2px solid rgb(236, 226, 226);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
+
+  

@@ -1,0 +1,61 @@
+.line-container {
+    height: 10vh
+}
+
+.line-svg-animate {
+  animation: dash 1s linear;
+}
+
+.line-svg-animate-rev{
+  stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  animation: dash-rev 1s linear;
+}
+
+.line-svg {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  }
+  
+  @keyframes dash {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes dash-rev {
+    from {
+      stroke-dashoffset: 0;
+    }
+    to {
+      stroke-dashoffset: 1;
+    }
+  }
+
+
+ .menuTextParent{
+  display: flex;
+  flex-direction: column;
+ }
+
+ .menuButton{
+    position: relative;
+top: 46.5vh;
+ left: 0px;
+ }
+
+  .menuText{
+    /* background-color: bisque; */
+    opacity: 75;
+    transform: translate3d(-20px, 0, 0); /* ADDED - start x position as -50px */
+    cursor: pointer;
+    transition: 0.25s all ease-in-out;
+  }
+
+  .menuTextTransition {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); /* ADDED - move x to 0 on hover */
+  }
